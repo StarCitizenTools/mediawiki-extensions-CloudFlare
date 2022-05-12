@@ -20,7 +20,7 @@ class EventRelayerCloudflare extends EventRelayer {
 	 * @return bool
 	 */
 	protected function doNotify( $channel, array $events ) {
-		if( $channel === 'cdn-url-purges' ){
+		if ( $channel === 'cdn-url-purges' ) {
 			// Retrieve a list of URLs here
 			// Then pass over to Cloudflare to purge
 		}
