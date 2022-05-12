@@ -1,9 +1,9 @@
 {
-	"name": "CloudFlare",
+	"name": "Cloudflare",
 	"license-name": "GPL-3.0-or-later",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"type": "other",
-	"url": "https://www.mediawiki.org/wiki/Extension:CloudFlare",
+	"url": "https://www.mediawiki.org/wiki/Extension:Cloudflare",
 	"author": [
 		"[https://www.mediawiki.org/wiki/User:Alistair3149 Alistair3149]",
 		"[https://www.mediawiki.org/wiki/User:Octfx Octfx]",
@@ -12,18 +12,18 @@
 	"namemsg": "cloudflare",
 	"descriptionmsg": "cloudflare-desc",
 	"requires": {
-		"MediaWiki": ">= 1.35.0",
+		"MediaWiki": ">= 1.35.2",
 		"platform": {
 			"ext-curl": "*"
 		}
 	},
 	"MessagesDirs": {
-		"CloudFlare": [
+		"Cloudflare": [
 			"i18n"
 		]
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\CloudFlare\\": "includes/"
+		"MediaWiki\\Extension\\Cloudflare\\": "includes/"
 	},
 	"Hooks": {
 		"LocalFilePurgeThumbnails": "purge",
@@ -32,17 +32,17 @@
 	},
 	"HookHandlers": {
 		"purge": {
-			"class": "MediaWiki\\Extension\\CloudFlare\\Hooks\\PurgeHooks"
+			"class": "MediaWiki\\Extension\\Cloudflare\\Hooks\\PurgeHooks"
 		}
 	},
 	"config": {
-		"CloudFlareZoneId": {
+		"CloudflareZoneId": {
 			"value": null
 		},
-		"CloudFlareApiToken": {
+		"CloudflareApiToken": {
 			"value": null
 		},
-		"CloudFlareAccountId": {
+		"CloudflareAccountId": {
 			"value": null
 		}
 	},
