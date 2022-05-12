@@ -2,7 +2,7 @@
 ![](https://github.com/StarCitizenTools/mediawiki-extensions-Cloudflare/workflows/MediaWiki%20CI/badge.svg)
 
 ## Requirements
-* [MediaWiki](https://www.mediawiki.org) 1.35 or later
+* [MediaWiki](https://www.mediawiki.org) 1.35.2 or later
 
 ## Installation
 You can get the extension via Git (specifying Cloudflare as the destination directory):
