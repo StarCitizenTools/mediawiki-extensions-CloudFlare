@@ -32,13 +32,10 @@ class PurgeHooks implements	LocalFilePurgeThumbnailsHook, TitleSquidURLsHook, Ar
 	 *
 	 * @param File $file The File of which the thumbnails are being purged
 	 * @param string $archiveName Name of an old file version or false if it's the current one
+	 * @param string[] &$urls Array of URLs to purge from the caches, to be manipulated
 	 */
-	public function onLocalFilePurgeThumbnails( $file, $archiveName ): void {
-		$files = $this->getThumbnails( $file );
-		// Remove mwbackend link
-		array_shift( $files );
-
-		$this->runPurge( $this->linkThumbnails( $files, $file ) );
+	public function onLocalFilePurgeThumbnails( $file, $archiveName, $urls ): void {
+		$this->runPurge( $urls );
 	}
 
 	/**
