@@ -1,6 +1,6 @@
 <?php
 /**
- * CloudFlare purge hooks
+ * Cloudflare purge hooks
  *
  * @file
  * @ingroup Extensions
@@ -9,7 +9,7 @@
 
 declare( strict_types=1 );
 
-namespace MediaWiki\Extension\CloudFlare\Hooks;
+namespace MediaWiki\Extension\Cloudflare\Hooks;
 
 use Article;
 use File;

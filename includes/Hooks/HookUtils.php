@@ -1,28 +1,28 @@
 <?php
 /**
- * CloudFlare extension hooks
+ * Cloudflare extension hooks
  *
  * @file
  * @ingroup Extensions
  * @license MIT
  */
 
-namespace MediaWiki\Extension\CloudFlare\Hooks;
+namespace MediaWiki\Extension\Cloudflare\Hooks;
 
 use MediaWiki\MediaWikiServices;
 
 class HookUtils {
 
 	/**
-	 * Send URLs to CloudFlare to purge
+	 * Send URLs to Cloudflare to purge
 	 * Based on Extension:CloudflarePurge by Alex Lee
 	 * @param array $urls URLs to purge
 	 */
 	public function purgeUrls( $urls ): void {
 		$config = MediaWikiServices::getInstance()->getMainConfig();
-		$zoneId = $config->get( 'CloudFlareZoneId' );
-		$apiToken = $config->get( 'CloudFlareApiToken' );
-		$accountId = $config->get( 'CloudFlareAccountId' );
+		$zoneId = $config->get( 'CloudflareZoneId' );
+		$apiToken = $config->get( 'CloudflareApiToken' );
+		$accountId = $config->get( 'CloudflareAccountId' );
 
 		// Return if any info is missing
 		if ( empty( $zoneId ) || empty( $apiToken ) || empty( $accountId ) || empty( $urls ) ) {

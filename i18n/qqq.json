@@ -5,5 +5,5 @@
 		]
 	},
 	"cloudflare": "{{name}}",
-	"cloudflare-desc": "{{desc|name=CloudFlare|url=https://www.mediawiki.org/wiki/Extension:CloudFlare}}"
+	"cloudflare-desc": "{{desc|name=Cloudflare|url=Cloudflare}}"
 }

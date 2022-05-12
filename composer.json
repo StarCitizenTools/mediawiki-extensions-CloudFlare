@@ -1,13 +1,13 @@
 {
 	"name": "mediawiki/cloudflare",
 	"type": "mediawiki-extension",
-	"description": "Adds intergration with CloudFlare such as purge request",
+	"description": "Adds intergration with Cloudflare such as purge request",
 	"keywords": [
 		"MediaWiki",
-		"CloudFlare",
+		"Cloudflare",
 		"extension"
 	],
-	"homepage": "https://www.mediawiki.org/wiki/Extension:CloudFlare",
+	"homepage": "https://www.mediawiki.org/wiki/Extension:Cloudflare",
 	"readme": "README.md",
 	"license": "GPL-3.0",
 	"authors": [
@@ -18,8 +18,8 @@
 		}
 	],
 	"support": {
-		"forum": "https://www.mediawiki.org/wiki/Extension_talk:CloudFlare",
-		"wiki": "https://www.mediawiki.org/wiki/Extension:CloudFlare"
+		"forum": "https://www.mediawiki.org/wiki/Extension_talk:Cloudflare",
+		"wiki": "https://www.mediawiki.org/wiki/Extension:Cloudflare"
 	},
 	"require": {
 		"composer/installers": ">=1.0.1"
@@ -43,6 +43,6 @@
 		]
 	},
 	"extra": {
-		"installer-name": "CloudFlare"
+		"installer-name": "Cloudflare"
 	}
 }

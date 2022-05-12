@@ -4,6 +4,6 @@
 			"alistair3149"
 		]
 	},
-	"cloudflare": "CloudFlare",
-	"cloudflare-desc": "Adds intergration with CloudFlare such as purge request"
+	"cloudflare": "Cloudflare",
+	"cloudflare-desc": "Adds intergration with Cloudflare such as purge request"
 }

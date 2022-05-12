@@ -1,6 +1,6 @@
 <?php
 /**
- * CloudFlare EventRelayerCloudflare
+ * Cloudflare EventRelayerCloudflare
  *
  * @file
  * @ingroup Extensions
@@ -9,7 +9,7 @@
 
 declare( strict_types=1 );
 
-namespace MediaWiki\Extension\CloudFlare;
+namespace MediaWiki\Extension\Cloudflare;
 
 use EventRelayer;
 
