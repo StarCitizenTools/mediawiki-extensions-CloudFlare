@@ -2,8 +2,8 @@
 ![](https://github.com/StarCitizenTools/mediawiki-extensions-Cloudflare/workflows/MediaWiki%20CI/badge.svg)
 
 ## Features
-* Purge thumbnails automatically
-* Purge wiki page when `action=purge` is triggered.
+* Purge edge cache automatically
+* Purge wiki page when `action=purge` is triggered
 
 ## Requirements
 * [MediaWiki](https://www.mediawiki.org) 1.35.2 or later
