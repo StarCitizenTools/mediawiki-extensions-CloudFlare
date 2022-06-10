@@ -1,6 +1,8 @@
 # Cloudflare
 ![](https://github.com/StarCitizenTools/mediawiki-extensions-Cloudflare/workflows/MediaWiki%20CI/badge.svg)
 
+This extension is archived and superceded by [MultiPurge](https://github.com/octfx/mediawiki-extensions-MultiPurge). Please use that instead.
+
 ## Features
 * Purge edge cache automatically
 * Purge wiki page when `action=purge` is triggered
